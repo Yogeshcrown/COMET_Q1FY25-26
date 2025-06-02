@@ -1,0 +1,120 @@
+📘 Phase 3: Appium Commands & Gestures (Weeks 9–10)
+
+Objective:
+==========
+This phase focused on mastering essential Appium commands and mobile gestures for advanced interaction with mobile apps. It also introduced handling system-level operations like alerts, popups, clipboard actions, and capturing screenshots/logs for debugging.
+
+Week 9: Touch, Gestures & Keyboard Handling
+===========================================
+✅ Topic 11: Touch Actions – Tap, Long Press, Drag & Drop
+Learned to perform single-touch actions on elements:
+
+tap to mimic finger tapping on buttons.
+
+longPress for elements requiring press-and-hold interactions.
+
+dragAndDrop for moving UI elements across containers.
+
+Used Appium commands such as:
+
+javascript
+Copy
+Edit
+await driver.touchPerform([
+  { action: 'press', options: { x: 200, y: 300 }},
+  { action: 'wait', options: { ms: 1000 }},
+  { action: 'moveTo', options: { x: 400, y: 600 }},
+  { action: 'release' }
+]);
+✅ Topic 12: Scroll, Swipe & Multi-touch Actions
+Explored scrolling using:
+
+mobile: scroll (iOS).
+
+mobile: swipe and touchAction (Android).
+
+Learned advanced gesture-based interactions:
+
+Horizontal/Vertical swipes.
+
+Multi-touch gestures (pinch/zoom) – particularly useful for image apps or maps.
+
+Used coordinates and element references to simulate gestures effectively.
+
+✅ Topic 13: Keyboard Handling
+Practiced showing/hiding keyboards during text input automation.
+
+Handled mobile keyboards that obscure form fields:
+
+driver.hideKeyboard() to remove keyboard visibility.
+
+Used appropriate waits to ensure field interaction before and after keyboard display.
+
+Week 10: Device Controls, Popups & Debugging Tools
+==================================================
+✅ Topic 14: Orientation, Clipboard & Lock/Unlock
+Controlled device orientation dynamically:
+
+javascript
+Copy
+Edit
+await driver.setOrientation('LANDSCAPE');
+Clipboard access:
+
+Copied and pasted text using getClipboard() and setClipboard().
+
+Useful in form-filling automation and password field testing.
+
+Locked/unlocked device simulation to test app resume states.
+
+✅ Topic 15: Alerts, Popups & Permission Dialogs
+Automated interactions with:
+
+System alerts (location, camera permissions).
+
+In-app popups (confirmation, error modals).
+
+Used acceptAlert() and dismissAlert() for handling permission dialogs.
+
+Understood how different platforms (iOS/Android) handle alerts differently.
+
+✅ Topic 16: Screenshots, Logs & Performance Metrics
+Captured screenshots on failure or at specific checkpoints:
+
+javascript
+Copy
+Edit
+await driver.saveScreenshot('./screenshots/test-fail.png');
+Retrieved device/system logs to debug:
+
+driver.getLog('logcat') for Android.
+
+Monitored performance:
+
+Gathered performance metrics like CPU, memory, and network usage during test runs.
+
+Key Learnings & Takeaways
+========================
+Gained hands-on mastery over gesture automation: touch, swipe, and drag/drop.
+
+Understood how to handle interactive and dynamic content in mobile apps.
+
+Developed skill in debugging through logs, screenshots, and system state commands.
+
+Learned how to control the mobile device’s system behavior to simulate real-user scenarios.
+
+Improved confidence in handling keyboard, clipboard, and device orientation changes in tests.
+
+Tools & APIs Used
+=================
+Appium Mobile JSON Wire Protocol
+
+WebDriverIO commands
+
+Appium Inspector for coordinates
+
+ADB & Xcode logs
+
+Screenshot and Logging APIs
+
+JavaScript (Node.js) test scripts
