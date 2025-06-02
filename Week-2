@@ -1,0 +1,89 @@
+Week 2: AI in Software Testing – Benefits, Risks, and Ethics
+
+Learning Objectives
+===================
+In Week 2, I explored how Artificial Intelligence (AI) is actively transforming software testing processes. This included understanding the tangible benefits of AI, the potential risks it brings, and the ethical implications of integrating AI into testing ecosystems. I also reviewed real-world use cases to better connect theory with practical applications.
+
+Topics Covered
+==============
+AI-Driven Software Testing: Efficiency & Effectiveness
+
+Discovered how AI automates repetitive tasks such as test case generation, test data creation, defect prediction, and maintenance of test scripts.
+
+Explored how AI-powered testing tools help:
+
+Speed up regression cycles.
+
+Increase test coverage.
+
+Adapt to UI changes via self-healing scripts.
+
+Identify risk areas based on code changes or historical defects.
+
+Benefits of Using AI in Testing
+================================
+Automation of intelligence tasks such as identifying patterns or anomalies in large datasets.
+
+Predictive capabilities for identifying potential failure points before code reaches production.
+
+Test optimization through smarter test prioritization and selection based on risk analysis.
+
+Reduction in manual effort, especially for UI testing across multiple devices or platforms.
+
+Risks and Challenges
+====================
+Bias in models: AI can inherit biases from training data, leading to skewed testing results.
+
+Lack of transparency: AI algorithms can be "black-box" systems, making it difficult to explain decisions.
+
+Overreliance: Testers may become too dependent on AI, risking missed issues if the AI fails.
+
+Versioning & Drift: Models can evolve, leading to inconsistent testing outcomes unless versioned properly.
+
+Privacy & Security Considerations
+
+Importance of data anonymization when using production datasets for model training.
+
+Understanding data governance and model auditability in testing pipelines.
+
+Potential risks of using sensitive information in AI-powered test scenarios.
+
+Ethical Use of AI in Testing
+
+Need for transparency: Testers must understand and explain how AI makes testing decisions.
+
+Accountability: Even with AI, testers and teams are responsible for outcomes.
+
+Fairness: Ensuring that AI-based test decisions don’t reinforce inequality or produce biased outcomes.
+
+Case Studies: Real-World Examples
+
+Reviewed companies and tools that are successfully using AI in software testing:
+
+Mabl: Automatically adapts test cases when the UI changes.
+
+Testim.io: Uses machine learning to generate, maintain, and execute end-to-end tests.
+
+Functionize: Uses NLP to convert plain English test cases into automated tests.
+
+Noted improvements in release cycles, bug detection, and reduced manual effort in these implementations.
+
+Key Takeaways
+============
+AI can significantly improve testing workflows, but its implementation must be done thoughtfully and responsibly.
+
+Testing teams must evolve their skill sets—not just to use AI tools but also to validate, interpret, and supervise AI’s behavior.
+
+Ethical considerations must be built into the AI testing lifecycle—from data sourcing to final decision-making.
+
+Tools & Technologies Explored
+==============================
+While no tools were directly implemented in this week, I researched and observed:
+
+Real-world platforms using AI: Testim, Mabl, and Functionize.
+
+Basic structure of AI model validation and auditing in test automation pipelines.
+
+Conclusion
+==========
+This week emphasized that while AI offers immense benefits in testing—like scalability, intelligence, and speed—it also brings responsibilities. As a QA professional, I must ensure that AI-enhanced testing is fair, secure, auditable, and aligned with ethical standards. This understanding prepares me to approach future lessons and automation projects with both technical confidence and ethical clarity.
