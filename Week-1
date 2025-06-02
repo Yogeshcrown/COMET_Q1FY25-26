@@ -1,0 +1,87 @@
+Week 1: Introduction to AI Testing Terminologies & Basics
+Familiarize yourself with AI concepts, terminology, and key testing applications.
+Understand the differences between traditional vs. AI-driven testing approaches.
+Explore the course structure and objectives.
+============================================
+
+🗓️ Week 1: Introduction to AI Testing Terminologies & Basics
+🎯 Learning Objectives
+In Week 1, my primary focus was to build a strong foundational understanding of AI testing. This included learning about AI fundamentals, how AI integrates with software testing, and recognizing the shift from traditional testing methods to AI-powered approaches.
+
+📘 Topics Covered
+Understanding AI in the Context of Testing
+
+Learned what Artificial Intelligence (AI) is and how it's transforming various industries, particularly software testing.
+
+Identified key AI concepts such as Machine Learning (ML), Deep Learning, Natural Language Processing (NLP), and their relevance to testing workflows.
+
+Common AI Testing Terminologies
+
+Familiarized myself with frequently used terms like:
+
+Training Data
+
+Model Accuracy
+
+Bias & Variance
+
+Supervised/Unsupervised Learning
+
+Inference
+
+Test Data Set
+
+AI Validation
+
+Traditional Testing vs. AI-Driven Testing
+
+Understood the core differences between manual/automated testing and AI-enabled testing:
+
+Traditional testing is deterministic; AI testing introduces probabilistic behaviors.
+
+AI tools can learn from test results and improve over time.
+
+AI reduces the effort in test maintenance, test generation, and defect prediction.
+
+Benefits of AI in Testing
+
+Improved efficiency and coverage.
+
+Predictive analytics for early defect detection.
+
+Self-healing test scripts.
+
+Automated identification of UI changes.
+
+Challenges in AI-Based Testing
+
+Requires large datasets and high-quality training inputs.
+
+Interpretability of AI decisions (black-box nature).
+
+Evolving models can impact test consistency.
+
+Course Structure and Objectives Overview
+
+Explored how the course will progress through Appium setup, real-device testing, hybrid/native app automation, advanced strategies, CI/CD integration, and AI-powered test design.
+
+Key Takeaways
+AI in testing is not just a buzzword — it has practical, measurable impacts when used properly.
+
+A shift in mindset is necessary to transition from writing rigid test cases to enabling systems to test adaptively and intelligently.
+
+The knowledge of AI concepts enhances a tester’s ability to work with modern testing tools and interpret results produced by intelligent systems.
+
+Tools & Technologies Previewed
+While this week focused more on conceptual learning, I got an introduction to the tools we will work with:
+
+Appium for mobile automation.
+
+WebdriverIO, Mocha, and JavaScript for scripting.
+
+AI-enhanced platforms such as Testim, Mabl, and Functionize (mentioned as future exploration).
+
+Conclusion
+Week 1 laid the groundwork for everything ahead in the Appium course. With a better understanding of how AI fits into the testing world, I am now prepared to dive into the technical setup and start working on hands-on mobile automation using Appium — while keeping an eye on how AI can augment my testing processes.
+
+
