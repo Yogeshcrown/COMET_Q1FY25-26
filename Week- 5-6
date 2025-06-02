@@ -1,0 +1,108 @@
+📘 Phase 1: Foundation & Setup (Weeks 5–6)
+
+Objective:
+==========
+The goal of this phase is to establish a solid foundation in Appium, its ecosystem, and required tools for both Android and iOS automation. The setup process across Windows and macOS is explored in depth to ensure a proper testing environment.
+
+Week 5: Appium Basics & Android Environment Setup
+=================================================
+✅ Topic 1: Introduction to Appium
+Learned what Appium is: a cross-platform mobile testing tool for Android and iOS.
+
+Explored its history and evolution:
+
+Based on Selenium WebDriver protocol.
+
+Supports native, hybrid, and mobile web apps.
+
+Studied the Appium Architecture:
+
+Client-Server model.
+
+Appium Server as a mediator between test scripts and mobile devices.
+
+Drivers: UiAutomator2 (Android) and XCUITest (iOS).
+
+✅ Topic 2: Android Setup on Windows
+Installed and configured the Android testing environment on Windows:
+
+Java Development Kit (JDK) setup and path configuration.
+
+Android Studio installation.
+
+Downloaded Android SDK and set environment variables (ANDROID_HOME, JAVA_HOME).
+
+Created and launched Android Emulator using AVD Manager.
+
+Validated emulator with adb devices and confirmed connectivity.
+
+Week 6: macOS Setup for Android and iOS + Appium Tools
+======================================================
+✅ Topic 3: Android Setup on macOS
+Repeated Android setup steps, adapted for macOS:
+
+Installed Java via Homebrew.
+
+Installed Android Studio and configured SDK/AVD.
+
+Launched and tested emulator using command-line tools.
+
+
+✅ Topic 4: iOS Setup on macOS
+Set up iOS automation prerequisites:
+
+Installed Xcode from Mac App Store.
+
+Configured Xcode Command Line Tools.
+
+Created and launched iOS Simulators.
+
+Understood iOS Certificates and Provisioning Profiles:
+
+Required for testing on real iOS devices.
+
+✅ Topic 5: Appium Tools Setup
+Installed and explored:
+
+Appium Desktop App:
+
+Used to start the Appium server locally.
+
+UI to monitor logs and sessions.
+
+Appium Inspector:
+
+Tool to inspect mobile UI elements.
+
+Helps generate and verify element locators.
+
+Set up supporting tools:
+
+Node.js (required for Appium).
+
+Visual Studio Code (VSCode) as the preferred code editor.
+
+🔧 Tools & Frameworks Configured
+Java (OpenJDK)
+
+Android Studio (SDK, AVD)
+
+Xcode (CLI tools, Simulators)
+
+Node.js & NPM
+
+Appium Desktop & Inspector
+
+VS Code (with JavaScript/WebdriverIO plugins)
+
+Key Learnings & Takeaways
+=========================
+Gained a solid understanding of how Appium fits into the test automation ecosystem.
+
+Successfully configured Android and iOS environments for test automation on both Windows and macOS.
+
+Learned to troubleshoot emulator/simulator issues and validate device connections.
+
+Mastered the use of Appium Inspector to locate elements before writing test scripts.
+
+Set the stage for writing and running real Appium tests in upcoming weeks.
