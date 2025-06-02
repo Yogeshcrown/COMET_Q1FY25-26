@@ -1,0 +1,98 @@
+🗓️ Week 3: Generating Test Artifacts Using AI
+
+Learning Objectives
+===================
+In Week 3, I focused on understanding how AI can assist in generating core test artifacts such as test plans, test strategies, test cases, and test data. The goal was to learn how AI speeds up the artifact creation process while maintaining accuracy and improving test coverage. I also engaged in hands-on practice with AI-based test case generation tools to apply these concepts practically.
+
+Topics Covered
+==============
+1. AI-Generated Test Artifacts – What & Why?
+Traditional test documentation can be time-consuming and repetitive. AI streamlines this by:
+
+Interpreting requirements or user stories.
+
+Automatically generating structured test cases, plans, and even strategies.
+
+Explored key AI outputs:
+
+Test Plans – based on project context, risk analysis, and feature breakdown.
+
+Test Strategies – generated using best practices for functional, non-functional, and exploratory testing.
+
+Test Cases – created by parsing user stories or code directly.
+
+Test Data – generated intelligently based on test objectives and input constraints.
+
+2. Test Case Generation Using AI
+Learned how tools use NLP (Natural Language Processing) to convert plain language (e.g., Jira tickets, BDD scenarios) into valid test cases.
+
+Understood how machine learning can analyze past test executions and defects to create high-priority or high-coverage scenarios.
+
+Example:
+
+Input: “User logs in and views profile.”
+
+AI-generated:
+
+Positive flow test cases.
+
+Negative scenarios (e.g., wrong password).
+
+Edge cases (e.g., slow network).
+
+3. Coverage Optimization via AI
+Explored how AI can suggest:
+
+Uncovered paths or scenarios based on application flows.
+
+Duplicate or outdated test cases for removal.
+
+Learned the role of model-based testing and graph-based algorithms for AI-driven path coverage analysis.
+
+4. Test Data Generation with AI
+AI uses context to generate:
+
+Valid test inputs (e.g., emails, phone numbers).
+
+Edge-case inputs (e.g., max length strings, special characters).
+
+GDPR-compliant anonymized datasets.
+
+Learned about synthetic data generation and data masking techniques supported by AI.
+
+5. Hands-On Practice
+Experimented with AI-powered platforms:
+
+Testim.io – NLP-based test case generator.
+
+Katalon TestOps AI – test planning and prioritization engine.
+
+ChatGPT + Excel – to auto-generate tabular test cases from requirements.
+
+Observed how inputting acceptance criteria could yield:
+
+Step-by-step test cases.
+
+Preconditions and expected results.
+
+Parameterized test data.
+
+Key Takeaways
+=============
+AI significantly reduces the time to author test documentation.
+
+Coverage quality improves as AI suggests untested or risky paths.
+
+While AI assists in generation, testers still need to review and refine artifacts to ensure correctness and alignment with business goals.
+
+Test data generation using AI is especially useful for automation and performance testing scenarios.
+
+🧰 Tools & Technologies Used
+Testim.io (Test automation Tool)
+
+ChatGPT & Prompt Engineering for Test Case Generation
+
+Google Gemini (for test data generation research)
+
+Conclusion
+Week 3 gave me practical insight into how AI can automate and enhance the generation of core testing assets. This enables faster onboarding, greater test coverage, and more efficient regression cycles. These skills are directly applicable to modern Agile and DevOps environments where speed and accuracy in test design are crucial.
