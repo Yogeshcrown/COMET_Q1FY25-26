@@ -1,0 +1,117 @@
+📘 Phase 2: First Test & Appium Basics (Weeks 7–8)
+
+Objective:
+==========
+This phase focused on executing our first Appium test scripts on both Android and iOS platforms. We also developed a solid understanding of desired capabilities, locator strategies, and device-specific configurations like AVD, UDID, and AppActivity.
+
+Week 7: Desired Capabilities & First Android/iOS Test Execution
+===============================================================
+✅ Topic 6: Appium Desired Capabilities
+Understood the importance of desired capabilities in defining test sessions:
+
+Examples include platformName, deviceName, automationName, app, udid, appPackage, and appActivity.
+
+Learned to configure capabilities for:
+
+Android:
+
+json
+Copy
+Edit
+{
+  "platformName": "Android",
+  "deviceName": "Android Emulator",
+  "automationName": "UiAutomator2",
+  "appPackage": "com.example.app",
+  "appActivity": ".MainActivity"
+}
+iOS:
+
+json
+Copy
+Edit
+{
+  "platformName": "iOS",
+  "deviceName": "iPhone 14",
+  "automationName": "XCUITest",
+  "bundleId": "com.example.TestApp"
+}
+✅ Topic 7: First Android Test – Real Device & Emulator
+Connected and configured a real Android device using ADB.
+
+Launched and tested an Android Emulator (AVD).
+
+Wrote and executed the first Appium test using JavaScript and WebDriverIO to interact with app elements.
+
+Observed test logs in the Appium Desktop server to understand step-by-step execution.
+
+✅ Topic 8: First iOS Test – Real Device & Simulator
+Launched iOS simulator via Xcode.
+
+Ran the first test using Appium for iOS:
+
+Configured xcodeOrgId and xcodeSigningId for real device testing.
+
+Understood bundle identifiers and how to target specific iOS apps.
+
+Verified connection using instruments and xcrun simctl.
+
+Week 8: Locator Strategies & Device-Specific Setup
+==================================================
+✅ Topic 9: Basic Locator Strategies
+Practiced identifying elements using:
+
+ID: Fastest and most stable.
+
+Accessibility ID: Preferred for cross-platform (used accessibilityLabel on iOS).
+
+XPath: Powerful but slower; useful when no other options are available.
+
+ClassName: Used for selecting elements with specific class hierarchy.
+
+Used Appium Inspector to inspect and copy locators from real apps.
+
+✅ Topic 10: Deep Dive – AVD, UDID, AppPackage & AppActivity
+AVD (Android Virtual Device):
+
+Learned to create and configure emulators for testing various Android OS versions.
+
+UDID (Unique Device Identifier):
+
+Used adb devices (Android) and instruments -s devices / xcrun xctrace list devices (iOS) to fetch UDID.
+
+Crucial for targeting real devices during automation.
+
+AppPackage & AppActivity:
+
+Used adb shell dumpsys window windows | grep -E 'mCurrentFocus' to find running activities.
+
+Identified appPackage and appActivity for targeting specific screens in Android apps.
+
+Key Learnings & Takeaways
+=========================
+Created and ran the first real-world Appium test scripts on both Android and iOS.
+
+Became confident in configuring desired capabilities and selecting the right combinations for different platforms.
+
+Learned how to inspect and interact with UI elements using powerful locator strategies.
+
+Gained experience in working with emulators, real devices, and troubleshooting configuration issues.
+
+Understood how to map app packages and activities to test specific screens on Android.
+
+Tools & Utilities Used
+======================
+Appium Server & Inspector
+
+Android Debug Bridge (ADB)
+
+Xcode Command Line Tools
+
+WebDriverIO + Mocha
+
+Node.js / JavaScript
+
+Android Studio (AVD)
+
+iOS Simulators / Real Devices
